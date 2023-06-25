@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile Card </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img class="round" src="user.png" />
+        <h4> Rushda Mansuri </h4>
+        <h5> United States </h5>
+        <p> Full Stack Developer</p>
+        <div class="buttons">
+            <button class="main-btn" onclick="messageBtn()">
+                Message
+            </button>
+            <button class="main-btn secondary" onclick="followingBtn()">
+                Following
+            </button>
+        </div>
+        <div class="skills">
+            <h5>Skills</h5>
+            <hr>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript </li>
+                <li>ReactJS</li>
+                <li>NodeJS </li>
+                <li>NextJS</li>
+                <li>AngularJS</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>MVC Architecture / WEB API's</li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function followingBtn() {
+            location.href="https://github.com/RushdaMansuri";
+        }
+        function messageBtn() {
+            alert("Sorry, the message isn't accessible right now!!")
+        }
+    </script>
+</body>
+</html>
